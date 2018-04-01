@@ -1,0 +1,31 @@
+{
+    "name": "crud2",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "file-system": "^2.2.2",
+        "lodash": "^4.17.5",
+        "mongodb": "^3.0.5",
+        "mongoose": "^5.0.12",
+        "monk": "^6.0.5",
+        "nodemon": "^1.17.2",
+        "prop-types": "^15.6.1",
+        "react-compose": "^2.0.0",
+        "react-webpack-node": "^3.3.0",
+        "redux-form": "^7.3.0",
+        "redux-promise": "^0.5.3"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    }
+}
